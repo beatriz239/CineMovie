@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden
+    
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background:  #071e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imagem{
+    width: 35vw;
+}
+
+.left-login h1 {
+    color:#04b8ff; /* Adicione a cor do texto desejada */
+    font-size:42px; /* Tamanho da fonte */
+    font-family: "Noto Serif", serif; 
+    text-align: center; /* Alinhamento do texto */
+
+}
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #092d4e;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.574) ;
+}
+.card-login >h1{
+    color: #04b0ff;
+     font-weight: 800;
+     margin: 0;  
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+.textfield >input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #0f3567;
+    color: #04b0ff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.574);
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield >label{
+    color:  #a9a9a9 ;
+    margin-bottom:  10px;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: #04b8ff;
+    cursor: pointer;
+    box-shadow:0px 10px 40px -12px #04b8ff;
+}
+.seta{
+margin: 0;
+}
+.ja{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}

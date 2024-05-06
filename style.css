@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+        font-family: "Ubuntu Mono", "monoespaço"; 
+        list-style: none;
+        text-decoration: none;
+
+}
+body{
+    background: url(img/5BFE7A04-BFD6-407E-8BB7-95140DADA942.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px, 48px;
+}
+header.logo{
+width: 150px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navigation ul li a{
+color: white;
+font-size: 18px;
+padding-bottom: 5px;
+border-bottom: 2px solid transparent;
+transition: all .6s;
+}
+
+.navigation ul li a:hover{
+border-bottom: 2px solid  rgb(33, 111, 153);
+
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    max-width: 50em;
+    margin-top: 1.5em;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5em;
+}
+
